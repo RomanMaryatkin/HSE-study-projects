@@ -1,0 +1,30 @@
+[
+  {
+    "ID": 0,
+    "FirstDepartureTime": 300,
+    "LastDeparturelTime": 1380,
+    "Interval": 10,
+    "StationsOnTheRoute": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "Terminal": "A",
+    "Destination": "D"
+  },
+  {
+    "ID": 1,
+    "FirstDepartureTime": 310,
+    "LastDeparturelTime": 85,
+    "Interval": 15,
+    "StationsOnTheRoute": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "Terminal": "E",
+    "Destination": "F"
+  }
+]

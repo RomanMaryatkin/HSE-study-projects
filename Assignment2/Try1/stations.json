@@ -1,0 +1,74 @@
+[
+  {
+    "Id": 0,
+    "StationName": "A",
+    "RoutsThroughTheStation": [
+      0,
+      1
+    ],
+    "TimeToTerminal": [
+      0,
+      12,
+      6,
+      8
+    ]
+  },
+  {
+    "Id": 1,
+    "StationName": "B",
+    "RoutsThroughTheStation": [
+      0,
+      1
+    ],
+    "TimeToTerminal": [
+      3,
+      9,
+      9,
+      5
+    ]
+  },
+  {
+    "Id": 2,
+    "StationName": "C",
+    "RoutsThroughTheStation": [
+      0
+    ],
+    "TimeToTerminal": [
+      8,
+      4
+    ]
+  },
+  {
+    "Id": 3,
+    "StationName": "D",
+    "RoutsThroughTheStation": [
+      0
+    ],
+    "TimeToTerminal": [
+      12,
+      0
+    ]
+  },
+  {
+    "Id": 4,
+    "StationName": "E",
+    "RoutsThroughTheStation": [
+      1
+    ],
+    "TimeToTerminal": [
+      0,
+      14
+    ]
+  },
+  {
+    "Id": 5,
+    "StationName": "F",
+    "RoutsThroughTheStation": [
+      1
+    ],
+    "TimeToTerminal": [
+      14,
+      0
+    ]
+  }
+]

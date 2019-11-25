@@ -1,0 +1,53 @@
+[
+  {
+    "FullName": "1",
+    "Login": "1",
+    "Password": "xMpCOKC5I4INzFCab3WEmw==",
+    "FavStations": [
+      {
+        "Id": "2",
+        "StationName": "C",
+        "RoutsThroughTheStation": [
+          0
+        ],
+        "TimeToTerminal": [
+          8,
+          4
+        ]
+      }
+    ]
+  },
+  {
+    "FullName": "2",
+    "Login": "2",
+    "Password": "yB5yjZ1ML2NvBn+JzBSGLA==",
+    "FavStations": null
+  },
+  {
+    "FullName": "3",
+    "Login": "3",
+    "Password": "7MvIfktc4v4oMI/Z8qe68w==",
+    "FavStations": null
+  },
+  {
+    "FullName": "4",
+    "Login": "4",
+    "Password": "qH/2eaLz5x2RgaZ7dUISLA==",
+    "FavStations": [
+      {
+        "Id": "1",
+        "StationName": "B",
+        "RoutsThroughTheStation": [
+          0,
+          1
+        ],
+        "TimeToTerminal": [
+          3,
+          9,
+          9,
+          5
+        ]
+      }
+    ]
+  }
+]

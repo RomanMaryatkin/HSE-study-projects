@@ -1,0 +1,27 @@
+﻿<Window x:Class="Try1.UI.RegisterWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Try1"
+        mc:Ignorable="d"
+        Title="" Height="640" Width="500">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition Height="auto"/>
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <TextBlock Grid.Row="0" HorizontalAlignment="center" Margin="10" VerticalAlignment="Bottom" Text="Enter the following data"/>
+        <StackPanel Grid.Row="1" Margin="70,0">
+            <TextBox Name="TextBoxFullName" Height="23" Margin="50,10" VerticalAlignment="center" HorizontalContentAlignment="Center" Text="Full name" MouseEnter="TextBoxFullName_MouseEnter"/>
+            <TextBox Name="TextBoxLogin" Height="23" Margin="50,10" VerticalAlignment="center" HorizontalContentAlignment="Center" Text="Login" MouseEnter="TextBoxLogin_MouseEnter"/>
+            <TextBlock Grid.Row="0" Margin="50,10,50,0" VerticalAlignment="Bottom" TextAlignment="Center" Text="Password"/>
+            <PasswordBox Name="PasswordBoxPassword" Height="23" Margin="50,0,50,10" VerticalAlignment="center" />
+        </StackPanel>
+        <StackPanel Grid.Row="2" Margin="70,0">
+            <Button Margin="70,25" Content="Register" Click="ButtonRegister_Click" />
+            <Button Margin="70,25" Content="Go back to main window" Click="ButtonBack_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
